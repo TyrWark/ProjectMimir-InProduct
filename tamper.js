@@ -16,7 +16,6 @@
 console.log("Project Mimir")
 var apikey = "QmVhcmVyIHNrLXByb2ota0lsa2FYdEg0dmJEOW8tTXNkYkxEeHVRMVRtaXBoRzJYcXVmN1FiaDlVVWJGOHdna0RoN0ZBZHY4cFQzQmxia0ZKenhxN2xlWHZEZktzU0JlQVNTMVhLRlJ4MUFWNnpCRHFrWTNESzdwclB0T015YXowUXRyUnNpbVJzQQ=="
 apikey = atob(apikey)
-console.log(apikey)
 
 
   /* Praise the Omnissiah
