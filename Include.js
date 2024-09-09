@@ -286,7 +286,8 @@ function getcutouts(){
         table.style.border = "1px solid red"
         table.setAttribute("id", "maintable")
         document.querySelector("body > div:nth-child(26) > div > div > div.css-1bkr611-ModalBody.egkbfm10").appendChild(table);
-    
+        dataarray = []
+        resp = ""
     
     
         //Fires Part 2
