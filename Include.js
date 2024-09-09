@@ -252,6 +252,7 @@ function getcutouts(){
     }
     
     function PushtoArray(){
+    DataArray = []
     DataArray.push(["Recommended Base" , Base_LikelyBase])
     DataArray.push(["Backup Base", Base_BackupBase])
     DataArray.push(["Justification", Base_Justify])
@@ -286,8 +287,6 @@ function getcutouts(){
         table.style.border = "1px solid red"
         table.setAttribute("id", "maintable")
         document.querySelector("body > div:nth-child(26) > div > div > div.css-1bkr611-ModalBody.egkbfm10").appendChild(table);
-        dataarray = []
-        resp = ""
     
     
         //Fires Part 2
